@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  mariadb.monolito:
+    image: mysql:5.7.34
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_USER: ddutra9
+      MYSQL_PASSWORD: Muito obrigado!192
+      MYSQL_ROOT_PASSWORD: Muito obrigado!192
+      MYSQL_DATABASE: clean_arch
+    volumes:
+      - ~/apps/mariadb:/var/lib/mysql

@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: ddutra9
+    password: Muito obrigado!192
+    url: jdbc:mysql://localhost:3306/clean_arch
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
